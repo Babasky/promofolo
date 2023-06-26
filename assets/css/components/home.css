@@ -41,22 +41,6 @@
     right: 50px;
   }
   
-  #hero .container {
-    text-align: center;
-  }
-  
-  #hero h2 {
-    color: #fff;
-    margin-bottom: 20px;
-    font-size: 48px;
-    font-weight: 700;
-  }
-  
-  #hero p {
-    animation-delay: 0.4s;
-    margin: 0 auto 30px auto;
-    color: #fff;
-  }
   
   #hero .carousel-inner .carousel-item {
     transition-property: opacity;
@@ -146,12 +130,6 @@
     }
   }
   
-  @media (max-width: 768px) {
-    #hero h2 {
-      font-size: 28px;
-    }
-  }
-  
   @media (min-width: 1024px) {
   
     #hero .carousel-control-prev,
@@ -162,7 +140,7 @@
   
   @media (max-height: 500px) {
     #hero {
-      height: 120vh;
+      height: 100vh;
     }
   }
   
